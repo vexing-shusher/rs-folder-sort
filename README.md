@@ -15,6 +15,6 @@ Treat your OCD :) And be careful with moving around system files: atm the script
 # Usage
 Enter your FULL directory path when prompted, for example:
 
-`C:\Users\YourUserName\Desktop\'
+`C:\Users\YourUserName\Desktop\`
 
 If you forget the last slash or use the wrong type of slash (i.e. `/` for Windows or `\` for *NIX systems), the script should correct that for you.
