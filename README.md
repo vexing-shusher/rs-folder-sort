@@ -1,3 +1,5 @@
+# Description
+
 A simple script that takes in a path to a folder and sorts all of its contents into folders based on file extensions. For example:
 
 - .txt, .doc, .docx, .odt files will go to the "Texts" folder;
@@ -9,3 +11,10 @@ A simple script that takes in a path to a folder and sorts all of its contents i
 - any files with extensions not listed above will go to their respective EXT folders, i.e. .pdf files will be stored in a PDF folder.
 
 Treat your OCD :) And be careful with moving around system files: atm the script only ignores .ini files on Windows.
+
+# Usage
+Enter your FULL directory path when prompted, for example:
+
+`C:\Users\YourUserName\Desktop\'
+
+If you forget the last slash or use the wrong type of slash (i.e. `/` for Windows or `\` for *NIX systems), the script should correct that for you.
